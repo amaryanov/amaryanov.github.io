@@ -11,7 +11,7 @@ tags:
   - docker
 ---
 
-##### Intro
+##### Preface
 In this post I will describe how you can get working blog at your domain in 5 minutes.
 
 ##### Create GitHub account
@@ -49,10 +49,10 @@ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jeky
 
 stop - start if edit config.yml.
 
-##### Conclusion
+##### In Conclusion
 
 <ul>
 {% for tag in page.tags %}
-    <li><a href="/tag/{{ tag | uri_escape }}">{{ tag }}</a></li>
+    <li><a href="/tags/#{{ tag | uri_escape }}">{{ tag }}</a></li>
 {% endfor %}
 </ul>
