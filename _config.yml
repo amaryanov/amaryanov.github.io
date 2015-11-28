@@ -10,8 +10,7 @@ relative_permalinks: true
 title:            anovMari
 tagline:          'Nerd&#39;s Thoughts'
 description:      'It is everything that makes me happy. Read it. Like it. Share it.'
-url:              https://anovmari.com
-enforce_ssl:      anovmari.com
+cname:            anovmari.com
 baseurl:          /
 
 author:
