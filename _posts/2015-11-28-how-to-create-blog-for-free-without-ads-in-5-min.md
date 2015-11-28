@@ -10,12 +10,12 @@ tags:
   - cloudflare
   - docker
 ---
-
 ##### Preface
 In this post I will describe how you can get working blog at your domain in 5 minutes.
 
 ##### Create GitHub account
 Firstly go to [GitHub.com](https://github.com) and create an account in case if you do not have one. Nothing unusual: email, password, confirm and you are done.
+![GitHub Sign Up]({{ site.baseurl }}public/img/a{{page.path}}/github_signup.png "GitHub Sign Up")
 
 ##### Setup Blog
 github supports Jekyll
