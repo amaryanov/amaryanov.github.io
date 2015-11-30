@@ -2,6 +2,7 @@
 layout: post
 title: "First snow this year in Kyiv"
 img_path: "{{site.post_img_path}}{{page.path}}/"
+category: misc
 ---
 
 ![first snow]({{site.post_img_path}}{{page.path}}/first-snow.jpg "First snow.")
