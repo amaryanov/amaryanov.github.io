@@ -4,4 +4,4 @@ title: "dsfgdfsg"
 img_path: "{{site.post_img_path}}{{page.path}}/"
 ---
 
-test
+![first snow](first-snow.jpg "First snow.")
