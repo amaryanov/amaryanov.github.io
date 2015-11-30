@@ -11,7 +11,6 @@ tags:
   - docker
 category: tech
 ---
-
 ##### Preface
 In this post I will describe how you can get working blog at your domain in 5 minutes.
 
