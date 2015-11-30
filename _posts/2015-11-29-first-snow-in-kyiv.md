@@ -1,8 +1,7 @@
 ---
 layout: post
-title: {{page.path}}
-test: {{ site.baseurl }}public/img/a{{page.path}}/github_signup.png
-tags:
+title: "dsfgdfsg"
+img_path: "{{site.post_img_path}}{{page.path}}/"
 ---
 
-{{ site.baseurl }}public/img/a{{page.path}}/github_signup.png
+test

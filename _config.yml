@@ -12,6 +12,7 @@ tagline:          'Nerd&#39;s Thoughts'
 description:      'It is everything that makes me happy. Read it. Like it. Share it.'
 cname:            anovmari.com
 baseurl:          /
+post_img_path:    /public/img/a
 
 author:
   name:           'Anton Marianov'
