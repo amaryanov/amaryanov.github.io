@@ -32,18 +32,7 @@ go to claud flare set ssl to flexible. set minifying for scripts, html, css
 
 ##### Canonical Name of your Blog
 add cname to config.yml
-add js script to the head:
-{% if jekyll.environment == "production" %}
-   {% include check_host_proto.html %}
-{% endif %}
-check_host_proto.html:
-<script type="text/javascript">
-  var host = "{{ site.cname }}";
-  if (window.location.host != host)
-      window.location.host = host;
-  else if (window.location.protocol != "https:")
-      window.location.protocol = "https";
-</script>
+
 
 ##### Develop with Docker
 docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:pages jekyll s
