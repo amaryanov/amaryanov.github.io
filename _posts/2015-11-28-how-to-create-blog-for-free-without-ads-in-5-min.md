@@ -28,7 +28,7 @@ To simplify blogging GitHub decided to support Jekyll. Jekyll is a templating sy
 After you have found suitable theme on GitHub just fork theme into repository with name "**USERNAME**.github.io":
 ![Fork Repository]({{site.img_for_posts}}{{page.path}}/fork.png)
 
-You are almost done! Now you should be able to access your site at **USERNAME**.github.io. You should see some example content that author of theme wrote for you. Posts of your blog will should be saved at **_posts** directory. Go to this directory and you should find example content. You can delete it and begin to write your own ;) Just give proper names for your files in **_posts** folder. [date]-[dashed-title].md. The syntax of posts is [Markdown](https://en.wikipedia.org/wiki/Markdown).
+You are almost done! Now you should be able to access your site at **USERNAME**.github.io. You should see some example content that author of theme wrote for you. Posts of your blog should be saved at **_posts** directory. Go to this directory and you should find example content in it. You can delete them and begin to write your own posts in this directory ;) Just give proper names for your files in **_posts** folder. [date]-[dashed-title].md. The syntax of posts is [Markdown](https://en.wikipedia.org/wiki/Markdown).
 
 ##### Use your domain
 
