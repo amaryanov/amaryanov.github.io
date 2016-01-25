@@ -32,8 +32,9 @@ You are almost done! Now you should be able to access your site at **USERNAME**.
 
 ##### Use your domain
 
-To use your domain with blog working on GitHub Pages you will need to set CNAME record of it at your Name Server. Also you need to edit CNAME file in the root of your blog repository. Type your custom domain name in it and nothing else.
-set cname file to your domain
+First put your domain nain in CNAME file in the root of your blog repository.
+To use your domain with blog working on GitHub Pages you will need to set CNAME record of it at your Name Server.
+
 go to claudflare, add domain, set cname record to USERNAME.github.io
 set claudflare nameservers for your domain.
 go to claud flare set ssl to flexible. set minifying for scripts, html, css
@@ -49,6 +50,7 @@ stop - start if edit config.yml.
 
 ##### In Conclusion
 
+##### Tags:
 <ul>
 {% for tag in page.tags %}
     <li><a href="/tags/#{{ tag | uri_escape }}">{{ tag }}</a></li>
