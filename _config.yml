@@ -9,10 +9,10 @@ relative_permalinks: true
 # Setup
 title:            anovMari
 tagline:          'Nerd&#39;s Thoughts'
-description:      'It is everything that makes me happy. Read it. Like it. Share it.'
+description:      'Programmatic & Pragmatic'
 cname:            anovmari.com
 baseurl:          /
-img_for_posts:    /public/img/for
+posts_img:    "/public/img/for"
 
 author:
   name:           'Anton Marianov'
