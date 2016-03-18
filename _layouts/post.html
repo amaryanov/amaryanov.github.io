@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
+{% capture img_path %}{{ site.posts_img }}{{ page.path | replace: '.md', '' | replace: '_posts', ''}}{% endcapture %}
 
+{% assign site.img_path = 'foo' %}
+{{site.img_path}}
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>

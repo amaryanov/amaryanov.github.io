@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog for free without ads working via HTTPS 
+title: Blog for free without ads working via HTTPS
 published: true
 tags:
   - blog
@@ -10,14 +10,17 @@ tags:
   - cloudflare
   - docker
 category: tech
-images_path: "{{site.posts_img}}{{page.path}}/"
+description: In this post I will describe how you can get working blog at your domain in 5 minutes.
 ---
+
+{% include img_path.inc %}
+
 ##### Preface
 In this post I will describe how you can get working blog at your domain in 5 minutes.
 
 ##### Create GitHub account
 Firstly go to [GitHub.com](https://github.com) and create an account in case if you do not have one. Nothing unusual: username, email, password, confirm and you are done.
-![GitHub Sign Up]({{site.posts_img}}{{page.path}}/github_signup.png)
+![GitHub Sign Up]({{img_path}}/github_signup.png)
 Now you are ready to setup your blog.
 
 ##### Setup Blog
@@ -28,7 +31,7 @@ So we wish to use GitHub as a hosting solution for our blog.This means we have t
 I am not specialist in Jekyll so I decided to reuse existing theme available for free on the Internet. You can google them but I was not successful in it. I just did not like results Google gave for me. My choice was to go to GitHub and search Jekyll themes over there. Just try to search repositories by "Jekyll theme" and sort results by stars. I ended with [Hyde theme](https://github.com/poole/hyde) from @mdo.
 
 After you have found suitable theme on GitHub just fork theme into repository with name "**USERNAME**.github.io":
-![Fork Repository]({{site.posts_img}}{{page.path}}/fork.png)
+![Fork Repository]({{img_path}}/fork.png)
 
 You are almost done! Now you should be able to access your site at **USERNAME**.github.io. You should see some example content that author of theme wrote for you. Posts of your blog should be saved at **_posts** directory. Go to this directory and you should find example content in it. You can delete them and begin to write your own posts in this directory ;) Just give proper names for your files in **_posts** folder. [date]-[dashed-title].md. The syntax of posts is [Markdown](https://en.wikipedia.org/wiki/Markdown).
 At the end I will give you some useful tips about structure of directories. But now just clone your new repository on your computer and make some small changes from the next paragraph if you wish to use your custom domain.

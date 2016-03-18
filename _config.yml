@@ -11,7 +11,7 @@ tagline:          'Nerd&#39;s Thoughts'
 description:      'Programmatic & Pragmatic'
 cname:            anovmari.com
 baseurl:          /
-posts_img:    "/public/img/for"
+posts_img:    "/public/img"
 
 author:
   name:           'Anton Marianov'
